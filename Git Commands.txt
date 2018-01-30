@@ -1,0 +1,48 @@
+Adding branches to a collaborative work:
+
+-git remote add origin [url link of the repo]
+
+-git pull origin master
+
+-git branch [branch name]
+
+-git checkout [branch name]
+
+-git add .
+
+-git commit -m "text message"
+
+-git push origin [branch name]
+
+
+Pulling shared repo onto my local storage:
+
+-enter the local storage folder
+
+-git init
+
+-git clone [copy clone url of shared repo]
+
+
+Pushing a file into you own repo:
+*
+-git status
+
+-git add .
+
+-git status  (checks all files are up to date)
+
+-git commit -m "text message"
+
+-git push
+
+
+Adding files to main branch of shared repo:
+
+-git add .
+
+-git commit -m "text message"
+
+-git pull
+
+-git push
